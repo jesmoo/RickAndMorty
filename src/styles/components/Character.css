@@ -1,9 +1,9 @@
 .container__character {
   width: 29rem;
   height: auto;
+  grid-column: span 4;
   display: grid;
   grid-template-rows: auto auto;
-  margin-bottom: 1rem;
   background-color: #2f4368;
 }
 .character__text {

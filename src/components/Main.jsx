@@ -3,6 +3,8 @@ import Character from './Character';
 import SkeletonCharacter from './SkeletonCharacter';
 import title from '../assets/img/rrickandmorty.png';
 import useInitialState from '../Hooks/useInitialState';
+import '../styles/components/Main.css';
+import '../styles/breakpoints/mainQueries.css';
 
 const Main = () => {
   const initialState = useInitialState();

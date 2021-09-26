@@ -1,4 +1,20 @@
+/* header */
+.header--menu {
+  grid-column: 7 / span 2;
+}
+/* main */
+.main__imgTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
 .main__characters {
+  width: 100%;
+  max-width: 130rem;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-gap: 2rem;
 }
