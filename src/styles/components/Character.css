@@ -1,0 +1,30 @@
+.container__character {
+  width: 29rem;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-bottom: 1rem;
+  background-color: #2f4368;
+}
+.character__text {
+  padding: 2rem 8rem;
+  grid-row: 1 span;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #faf76b;
+}
+.character__img {
+  grid-row: span 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.character__img img {
+  width: 17.6rem;
+  height: 23.3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

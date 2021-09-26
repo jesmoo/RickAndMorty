@@ -1,9 +1,4 @@
 :root {
-  --grayColor: #f7f7f7;
-  /* --LightPink: #f7efeb; */
-  --LightGreen: #e7f7df;
-  --LightBlue: #dff7f4;
-  --LighterPink: #f7dff7;
   /* fonts */
   --FontTitle: 'Open Sans Condensed', sans-serif;
   --FontSubtitle: 'Rosario', sans-serif;

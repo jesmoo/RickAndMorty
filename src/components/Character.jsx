@@ -1,6 +1,7 @@
 import React from 'react';
+import '../styles/components/Character.css';
 
-const Character = ({ name }) => {
+const Character = ({ name, image }) => {
   return (
     <>
       <section className="container__character">
@@ -8,7 +9,7 @@ const Character = ({ name }) => {
           <h2>{name}</h2>
         </section>
         <section className="character__img">
-          <img src="" alt="" />
+          <img src={image} alt={name} />
         </section>
       </section>
     </>
