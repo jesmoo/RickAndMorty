@@ -1,0 +1,52 @@
+.main__CharacterContianer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.main__CharacterContianer img {
+  height: 23.3rem;
+  width: 17.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 2 / span 2;
+}
+.Character__textCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.Cards {
+  grid-column: span 2;
+}
+.Character__text {
+  grid-column: span 4;
+}
+.Character__text h1 {
+  margin-bottom: 3.7rem;
+}
+.Cards {
+  width: 13.7rem;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f4368;
+}
+.Cards__text {
+  margin-right: 1rem;
+}
+.Cards__subtext {
+  margin-bottom: 0.5rem;
+  color: #f7c49d;
+}
+.Cards__subtitle {
+  color: #faf76b;
+}
+.Cards__img img {
+  width: 3.3rem;
+  height: 3.3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It shows the information of the Rick and Morty API, in a page created with React where the information is saved in Hooks to have a better control. It shows a general page with each character, while if you select one it shows its more detailed information.
+
 ## Available Scripts
 
 In the project directory, you can run:
