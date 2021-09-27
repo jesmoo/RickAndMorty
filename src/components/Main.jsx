@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Character from './Character';
 import SkeletonCharacter from './SkeletonCharacter';
 import title from '../assets/img/rrickandmorty.png';

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import useOneData from '../Hooks/useOneData';
 import CardList from '../components/DetailsList';
 
@@ -9,19 +10,20 @@ import species from '../assets/icons/Species.svg';
 import pulse from '../assets/icons/pulse.svg';
 
 import '../styles/components/CharacterDetails.css';
+import '../styles/breakpoints/DetailsQueries.css';
 const CharacterDetails = (props) => {
   const id = props.match.params.id;
   const initialState = useOneData(id);
-  console.log(initialState);
   return (
     <main className="container__main">
       <section className="main__imgTitle">
-        <img src={title} alt="" />
+        <img src={title} alt="Rick and Morty" />
       </section>
       {initialState && initialState.loading ? (
         <h1>Holisss</h1>
       ) : (
         <section className="main__CharacterContianer">
+          <Link to="/" className="Character__comeBack" />
           <img
             className="Character__img"
             src={initialState.information.image}

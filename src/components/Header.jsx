@@ -7,11 +7,11 @@ const Header = () => {
     <>
       <header>
         <section className="header--section">
-          <a to="/">
-            <span className="section--span"></span>
+          <a href="https://www.jesmoo.xyz/">
+            <span className="section--span" title="Go home"></span>
           </a>
           <div className="header--menu">
-            <a href="https://www.jesmoo.xyz/about.html">
+            <a href="https://www.jesmoo.xyz/about.html" title="About me">
               <h3>about</h3>
             </a>
             <section className="donatios--menu">

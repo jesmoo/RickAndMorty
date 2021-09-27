@@ -1,7 +1,18 @@
 .main__CharacterContianer {
+  width: 100%;
+  max-width: 76.8rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+}
+.Character__comeBack {
+  width: 3.3rem;
+  height: 3.3rem;
+  background-image: url('../../assets/icons//volver-flecha.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main__CharacterContianer img {
   height: 23.3rem;
@@ -26,7 +37,7 @@
   margin-bottom: 3.7rem;
 }
 .Cards {
-  width: 13.7rem;
+  min-width: 13.7rem;
   padding: 1.2rem;
   display: flex;
   align-items: center;
@@ -34,7 +45,7 @@
   background-color: #2f4368;
 }
 .Cards__text {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 .Cards__subtext {
   margin-bottom: 0.5rem;
