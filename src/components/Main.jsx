@@ -17,7 +17,20 @@ const Main = () => {
       </section>
       <section className="main__characters">
         {initialState.loading ? (
-          <SkeletonCharacter />
+          <>
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+            <SkeletonCharacter />
+          </>
         ) : (
           initialState.information.results.map((item) => (
             <Character key={item.id} {...item} />
