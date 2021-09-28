@@ -1,0 +1,82 @@
+.main__CharacterContianer-Skeleton {
+  max-width: 76.8rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.Character__comeBack-Skeleton {
+  width: 3.3rem;
+  height: 3.3rem;
+  background-image: url('../../assets/icons/volver-flecha.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Character__img-Skeleton::before {
+  width: 5rem;
+  height: 23.3rem;
+  grid-column: 2 / span 2;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #eaeaea, #ddd, #eaeaea);
+  animation: loading 2s infinite linear;
+}
+.Character__img-Skeleton {
+  width: 17.6rem;
+  height: 23.3rem;
+  grid-column: 2 / span 2;
+  position: relative;
+  overflow: hidden;
+  background-color: #eaeaea;
+}
+.Character__text-Skeleton {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Character__text-Skeleton h1::before {
+  width: 3rem;
+  height: 4.2rem;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #eaeaea, #ddd, #eaeaea);
+  animation: loading 2s infinite linear;
+}
+.Character__text-Skeleton h1 {
+  width: 100%;
+  height: 4.2rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  grid-column: span 4;
+  background-color: #eaeaea;
+}
+.Character__textCards-Skeleton {
+  margin-top: 3.7rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.Cards-Skeleton::before {
+  width: 4rem;
+  height: 8rem;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #eaeaea, #ddd, #eaeaea);
+  animation: loading 2s infinite linear;
+}
+.Cards-Skeleton {
+  width: 13.7rem;
+  height: 8rem;
+  grid-column: span 2;
+  position: relative;
+  background-color: #eaeaea;
+  overflow: hidden;
+}

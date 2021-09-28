@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useOneData from '../Hooks/useOneData';
-import CardList from '../components/DetailsList';
+import CardList from './DetailsList';
+import SkeletonDetails from './SkeletonDetails';
 
 import title from '../assets/img/rrickandmorty.png';
 import planet from '../assets/icons/planeta.svg';
@@ -20,7 +21,7 @@ const CharacterDetails = (props) => {
         <img src={title} alt="Rick and Morty" />
       </section>
       {initialState && initialState.loading ? (
-        <h1>Holisss</h1>
+        <SkeletonDetails />
       ) : (
         <section className="main__CharacterContianer">
           <Link to="/" className="Character__comeBack" />
