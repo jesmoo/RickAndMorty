@@ -34,6 +34,7 @@
   grid-column: span 4;
 }
 .Character__text h1 {
+  font-size: 3rem;
   margin-bottom: 3.7rem;
 }
 .Cards {
