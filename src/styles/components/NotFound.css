@@ -1,0 +1,29 @@
+.svgcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  width: 100%;
+}
+.Character__comeBack {
+  display: block;
+}
+.topconvo {
+  font-size: 35px;
+}
+.topconvo span {
+  color: #a71dbf;
+}
+.bottomconvo {
+  padding-top: 15px;
+}
+
+.subcont {
+  width: 100%;
+  text-align: center;
+  height: 80%;
+}
+.icon404 {
+  max-height: 70%;
+  margin-bottom: 3rem;
+}
